@@ -14,6 +14,10 @@ const server = new ApolloServer({
   resolvers,
   context: ({ req }) => ({ req, pubsub })
 });
+server.get('/', (req, res) =>{
+  res.send("Graph QL Server is running do not worry about your apis")
+})
+
 
 mongoose
   .connect(MONGODB, { useNewUrlParser: true })
