@@ -1,4 +1,4 @@
-# twitter-clone-react
+# Twitter Clone React GraphQL MongoDB 🚀
 
 <a href="https://himanshu-twitter-clone.netlify.app/">https://himanshu-twitter-clone.netlify.app/</a>
 
